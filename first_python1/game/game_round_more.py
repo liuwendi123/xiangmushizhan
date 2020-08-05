@@ -15,9 +15,9 @@ def game():  # 定义一个函数
         your_hp = your_hp - my_power  # 运算
         if my_hp <= 0:
                 print("你赢了")
-                break
+                break #退出循环
         elif your_hp <= 0:
                 print("我赢了")
-                break
+                break #退出循环
 
-game()
+game() #函数调用

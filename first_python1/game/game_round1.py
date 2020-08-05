@@ -19,4 +19,4 @@ def game():#定义一个函数
         print("你赢了")
 
 
-game()
+game() #函数调用
