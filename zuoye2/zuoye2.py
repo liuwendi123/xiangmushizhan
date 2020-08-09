@@ -42,8 +42,8 @@ class XuZhu(TongLao):
     def read(self):
         print("罪过罪过")
 
-tl = TongLao(1000, 200)
-tl.see_people("WYZ")
-tl.fight_zms(4000,200)
+TL = TongLao(1000, 200)
+TL.see_people("WYZ")
+TL.fight_zms(4000,200)
 #XuZhu(1000,200)
 XuZhu.read("")
