@@ -9,12 +9,12 @@ class Utils:
 			params = yaml_data['params']
 			keys = set()
 			values = []
-			if isinstance(params,list):
+			if isinstance(params, list):
 				for row in params:
-					if isinstance(row,dict):
+					if isinstance(row, dict):
 						for key in row.keys():
 							keys.add(key)
 							values.append(list(row.values())[0])
-			var_names='.'.join(keys)
+			var_names = ','.join(keys)
 			res = {'keys': var_names, 'values': values}
 			return res
