@@ -1,5 +1,5 @@
-from work6.page.BasePage import BasePage
-from work6.page.adddepartmentPage import AddDepartmentPage
+from zuoye6.page.BasePage import BasePage
+from zuoye6.page.adddepartmentPage import AddDepartmentPage
 
 
 class ContactPage(BasePage):

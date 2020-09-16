@@ -1,4 +1,4 @@
-from work6.page.BasePage import BasePage
+from zuoye6.page.BasePage import BasePage
 
 
 class AddDepartmentPage(BasePage):
