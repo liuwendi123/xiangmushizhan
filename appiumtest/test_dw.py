@@ -20,9 +20,9 @@ class TestDw():
 		caps['appPackage'] = 'com.xueqiu.android'
 		caps['appActivity'] = '.view.WelcomeActivityAlias'
 		caps['noReset'] = 'true'
-		caps['automationName']= 'UiAutomator1'
+		caps['automationName'] = 'UiAutomator1'
 		caps['dontStopAppOnReset'] = 'true'
-		caps['skipDeviceInitialization'] = 'true'
+		caps['skipDevi ceInitialization'] = 'true'
 		caps['uncodeKeyBoard'] = 'true'
 		caps['reseKeyBoard'] = 'true'
 		self.driver = webdriver.Remote('http://localhost:4723/wd/hub', caps)

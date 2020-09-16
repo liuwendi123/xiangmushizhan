@@ -1,13 +1,15 @@
 from appium import webdriver
-desire_scap={
-  "platformName": "android",
-  "deviceName": "emulator-5554",
-  "appPackage": "com.xueqiu.android",
-  "appActivity": ".view.WelcomeActivityAlias",
-  "automationName":"UiAutomator1",
-  "noReset": True
+
+from appiumtest.test_firstappium import driver
+
+desire_scap = {
+    "platformName": "android",
+    "deviceName": "emulator-5554",
+    "appPackage": "com.xueqiu.android",
+    "appActivity": ".view.WelcomeActivityAlias",
+    "automationName": "UiAutomator1",
+    "noReset": True
 }
-"""
 import logging
 
 from appium.webdriver.common.mobileby import MobileBy
@@ -49,10 +51,10 @@ class BasePage:
         text = self.driver.find_element(MobileBy.XPATH, "//*[@class='android.widget.Toast']").text
         logging.info(text)
 
-        return text",desire_scap)
-driver.implicitly_wait(10)
+        return text, desire_scap)
+        driver.implicitly_wait(10)
 
-el1 = driver.find_element_by_id("com.xueqiu.android:id/tv_search")
-el1.click()
-el2 = driver.find_element_by_id("com.xueqiu.android:id/search_input_text")
-el2.send_keys("albabab")
+        el1 = driver.find_element_by_id("com.xueqiu.android:id/tv_search")
+        el1.click()
+        el2 = driver.find_element_by_id("com.xueqiu.android:id/search_input_text")
+        el2.send_keys("albabab")
