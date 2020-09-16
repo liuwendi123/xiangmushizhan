@@ -2,7 +2,7 @@ import self as self
 import yaml
 from appium.webdriver.webdriver import WebDriver
 
-
+###
 class BasePage:
 	_black_list=[]
 	_error_cont=0

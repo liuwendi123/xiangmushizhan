@@ -1,6 +1,6 @@
 ###启动APP
 import time
-
+###
 from appium import webdriver
 
 from test2.test.base_page import BasePage
