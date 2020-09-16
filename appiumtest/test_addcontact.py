@@ -2,6 +2,7 @@ from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 
 
+# 小练习
 class TestAdd():
 	def setup(self):
 		desired_caps = {}

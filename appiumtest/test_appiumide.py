@@ -1,5 +1,5 @@
 from appium import webdriver
-
+# 小练习
 from appiumtest.test_firstappium import driver
 
 desire_scap = {

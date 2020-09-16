@@ -3,6 +3,8 @@ from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 
 
+# 小练习
+
 # """
 # 1.打开雪球app
 # 2.点击搜索款输入框

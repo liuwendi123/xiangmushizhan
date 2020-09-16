@@ -1,3 +1,4 @@
+# 小练习
 from appium import webdriver
 desired_caps={}
 desired_caps['platformName']='Android'
