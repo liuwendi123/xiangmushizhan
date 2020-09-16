@@ -1,5 +1,4 @@
-from time import sleep
-
+# 12hhw
 from appium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
